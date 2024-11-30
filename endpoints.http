@@ -1,0 +1,22 @@
+###
+
+GET http://localhost:3333/
+
+###
+
+POST http://localhost:3333/
+Content-type: application/json
+
+{
+    "email": "jonasthebig@email",
+    "senha": "123"
+}
+
+###
+
+POST http://localhost:3333/pergunta
+Content-type: application/json
+
+{
+    "pergunta": "Faça uma piadas"
+}
